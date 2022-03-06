@@ -44,7 +44,7 @@ widgets:
   - links
 
 rss:
-fancybox: false
+fancybox: true
 favicon: favicon.png
 duoshuo_shortname:
 
