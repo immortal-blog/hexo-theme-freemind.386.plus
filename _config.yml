@@ -40,6 +40,7 @@ widgets:
   - search
   - category
   - tagcloud
+  - recent_comments
   - recent_posts
   - links
 
@@ -57,3 +58,12 @@ baidu_tongji:
   siteid:
 # search
 #swiftype_key:
+
+# built-in comment system
+comment_js:
+  type: "github"
+  user: "immortal-blog"
+  repo: "immortal-blog.github.io"
+  client_id: ""
+  client_secret: ""
+  count: 3
