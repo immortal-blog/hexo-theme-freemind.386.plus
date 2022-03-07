@@ -40,9 +40,9 @@ widgets:
   - search
   - category
   - tagcloud
+  - links
   - recent_comments
   - recent_posts
-  - links
 
 rss:
 fancybox: true
@@ -64,6 +64,6 @@ comment_js:
   type: "github"
   user: "immortal-blog"
   repo: "immortal-blog.github.io"
-  client_id: ""
-  client_secret: ""
+  client_id: "0926fba2ec35893ced81"
+  client_secret: "f4eb7e8722e7eadb82df98401bbd86c4111a107c"
   count: 3
