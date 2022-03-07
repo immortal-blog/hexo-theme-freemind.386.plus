@@ -58,8 +58,8 @@ piwik_analytics:
   siteid: 09a725f9-52e4-49d0-9691-6ccab4f70092
   username: immortalt
 baidu_tongji:
-  enable: true
-  siteid: 82ff380f5606c5d7dd7903f7ac40271b
+  enable: false
+  siteid: 
 # search
 #swiftype_key:
 
