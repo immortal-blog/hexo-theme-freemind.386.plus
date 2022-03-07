@@ -1,4 +1,4 @@
-slogan: "An awesome blog about software development and network security."
+slogan: "Keep and carry on."
 
 show_heart: true
 
@@ -8,27 +8,39 @@ menu:
   - title: Archives
     url: archives
     intro: "All the articles."
-    icon: "fa fa-archive"
+    # icon: "fa fa-archive"
   - title: Categories
     url: categories
     intro: "All the categories."
-    icon: "fa fa-folder"
-  # - title: Tags
-  #   url: tags
-  #   intro: "All the tags."
-  #   icon: "fa fa-tags"
-  # - title: About
-  #   url: about
-  #   intro: "About me."
-  #   icon: "fa fa-user"
-  # - title: RSS
-  #   url: atom.xml
-  #   intro: "Subscribe me."
-  #   icon: "fa fa-user"
+    # icon: "fa fa-folder"
+  - title: Tags
+    url: tags
+    intro: "All the tags."
+    # icon: "fa fa-tags"
+  - title: About
+    url: about
+    intro: "About me."
+    # icon: "fa fa-user"
+  - title: RSS
+    url: atom.xml
+    intro: "Subscribe me."
+    # icon: "fa fa-user"
 
 links:
+  - title: Freemind
+    url: https://github.com/wzpan/hexo-theme-freemind
+    intro: "Freemind's Github repository."
+    icon: "fa fa-github"
+  - title: BOOTSTRA.386
+    url: https://github.com/kristopolous/BOOTSTRA.386
+    intro: "BOOTSTRA.386's Github repository."
+    icon: "fa fa-github"
+  - title: Freemind.386
+    url: https://github.com/blackshow/hexo-theme-freemind.386
+    intro: "Freemind.386's Github repository."
+    icon: "fa fa-github"
   - title: "My Github"
-    url: http://www.github.com/immortalt
+    url: http://www.github.com/blackshow
     intro: "My Github account."
     icon: "fa fa-github"
   # - title: "My LinkedIn"
@@ -37,29 +49,29 @@ links:
   #   icon: "fa fa-linkedin"
 
 widgets:
-  - search
-  - category
-  - tagcloud
-  - links
-  - recent_comments
-  - recent_posts
+- search
+- category
+- tagcloud
+- recent_posts
+- links
 
-rss:
+rss: 
 fancybox: true
 favicon: favicon.png
 duoshuo_shortname:
 
+
 # Analytics (change to yours)
 google_analytics:
   enable: true
-  siteid: G-ZJT0X50ELX
-piwik_analytics:
-  enable: true
-  siteid: 09a725f9-52e4-49d0-9691-6ccab4f70092
-  username: immortalt
+  siteid: UA-70812759-1
 baidu_tongji:
   enable: true
-  siteid: 82ff380f5606c5d7dd7903f7ac40271b
+  siteid: cb5448498d7169c668b07c2b255d62c1
+piwik_analytics:
+  enable: false
+  siteid: 
+  username: 
 # search
 #swiftype_key:
 
