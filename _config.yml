@@ -56,7 +56,7 @@ google_analytics:
 piwik_analytics:
   enable: true
   siteid: 09a725f9-52e4-49d0-9691-6ccab4f70092
-  url: https://immortalt.containers.piwik.pro/
+  username: immortalt
 baidu_tongji:
   enable: false
   siteid:
