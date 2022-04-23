@@ -328,19 +328,6 @@ h2 {
   padding-left: 20px;
   padding-right: 5px;
 }
-.page .entry h2 {
-  display: block;
-  overflow: hidden;
-  width: 0;
-  height: 0;
-  margin: -20px 0;
-}
-.page .entry h3 {
-  display: block;
-  overflow: hidden;
-  width: 0;
-  height: 0;
-}
 .page .entry .col-md-8 {
   margin: 10px 0;
 }
