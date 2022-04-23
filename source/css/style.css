@@ -328,6 +328,11 @@ h2 {
   padding-left: 20px;
   padding-right: 5px;
 }
+strong {
+  color: white;
+  font-weight: bold;
+  text-transform: none;
+}
 .page .entry .col-md-8 {
   margin: 10px 0;
 }
