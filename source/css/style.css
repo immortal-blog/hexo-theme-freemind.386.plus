@@ -365,10 +365,9 @@ strong {
   opacity: 1;
 }
 .toc {
-  font-size: 10pt;
+  font-size: 1em;
   width: auto;
   padding: 10px;
-  background: #000;
 }
 .toc .toc-title {
   font-size: 125%;
@@ -490,3 +489,8 @@ code {
 .fancybox-close:active {
   background: url("../fancybox/fancybox_sprite.png");
 }
+@media(min-width:1400px) {
+  .container {
+   width: 1300px;
+  }
+ }
