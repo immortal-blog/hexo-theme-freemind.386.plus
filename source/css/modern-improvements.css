@@ -404,6 +404,32 @@ li {
   text-shadow: none !important;
 }
 
+/* ===== Navbar Color Optimization ===== */
+.navbar {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #e1e4e8 !important;
+  box-shadow: 0 1px 0 rgba(27,31,35,.04) !important;
+}
+
+.navbar-brand {
+  color: #24292e !important;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: #0366d6 !important;
+}
+
+.navbar-nav > li > a {
+  color: #24292e !important;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+  color: #0366d6 !important;
+  background-color: transparent !important;
+}
+
 /* ===== Navbar Spacing Optimization ===== */
 .navbar {
   min-height: 40px !important;
