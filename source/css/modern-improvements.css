@@ -809,3 +809,25 @@ a.btn.btn-primary:active,
 #gotop span:hover {
   color: #ffffff !important;
 }
+
+/* ===== Utterances Comment System Integration ===== */
+
+/* Comment section container */
+section#comment {
+  margin-top: 48px !important;
+  padding-top: 24px !important;
+  border-top: 1px solid #e1e4e8 !important;
+}
+
+/* Comment section title */
+section#comment h2.title {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  color: #24292e !important;
+  margin-bottom: 16px !important;
+}
+
+/* Utterances iframe will inherit these settings */
+.utterances {
+  max-width: 100% !important;
+}

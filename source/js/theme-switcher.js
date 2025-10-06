@@ -35,6 +35,17 @@
         : '<i class="fa fa-refresh"></i> Modern Theme';
       toggleBtn.setAttribute('data-theme', theme);
     }
+
+    // Update Utterances theme if present
+    const utterancesIframe = document.querySelector('iframe.utterances-frame');
+    if (utterancesIframe) {
+      const utterancesTheme = theme === MODERN_THEME ? 'github-light' : 'photon-dark';
+      const message = {
+        type: 'set-theme',
+        theme: utterancesTheme
+      };
+      utterancesIframe.contentWindow.postMessage(message, 'https://utteranc.es');
+    }
   }
 
   // Toggle theme
