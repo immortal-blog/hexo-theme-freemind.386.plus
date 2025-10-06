@@ -14,3 +14,6 @@ description: 摘要
 read_more: 阅读此文
 links: 链接
 recent_comments: "最新评论"
+no_comment: "暂无评论"
+go_to_comment: "发表评论"
+no_issue: "无Issue"

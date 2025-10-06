@@ -14,3 +14,6 @@ description: Description
 read_more: "Read More"
 links: Links
 recent_comments: "Recent Comments"
+no_comment: "No Comment"
+go_to_comment: "Leave Comment"
+no_issue: "No Issue"

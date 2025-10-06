@@ -546,7 +546,9 @@ button {
 button:before,
 button:after,
 .btn-default:before,
-.btn-default:after {
+.btn-default:after,
+.btn-primary:before,
+.btn-primary:after {
   display: none !important;
   content: none !important;
 }
@@ -573,6 +575,51 @@ button:active,
 .btn-default:hover {
   background: #f6f8fa !important;
   color: #0366d6 !important;
+}
+
+/* ===== Primary Button Optimization ===== */
+a.btn.btn-primary,
+.btn-primary {
+  background: #0366d6 !important;
+  color: #ffffff !important;
+  border: 1px solid #0366d6 !important;
+  border-radius: 6px !important;
+  padding: 8px 16px !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  box-shadow: 0 1px 0 rgba(27,31,35,0.04), inset 0 1px 0 rgba(255,255,255,0.25) !important;
+  cursor: pointer !important;
+  transition: background-color 0.1s ease !important;
+  margin: 0 !important;
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+
+a.btn.btn-primary:hover,
+.btn-primary:hover {
+  background: #0256c7 !important;
+  color: #ffffff !important;
+  border-color: #0256c7 !important;
+  text-decoration: none !important;
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+
+a.btn.btn-primary:active,
+.btn-primary:active {
+  background: #024ea4 !important;
+  color: #ffffff !important;
+  box-shadow: inset 0 1px 0 rgba(27,31,35,0.15) !important;
+  border: 1px solid #024ea4 !important;
+  border-color: #024ea4 !important;
+  transform: none !important;
+  margin: 0 !important;
+  outline: none !important;
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
 }
 
 /* ===== Back to Top Button Optimization ===== */
