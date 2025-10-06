@@ -1,0 +1,449 @@
+/* ========================================
+   Modern GitHub-Style Improvements
+   Only modify colors, fonts and spacing, preserve original layout
+   ======================================== */
+
+/* ===== Global Font Replacement - Remove Retro Fonts ===== */
+body,
+.page,
+.post,
+h1, h2, h3, h4, h5, h6,
+blockquote p,
+blockquote ol,
+blockquote ul,
+blockquote li,
+.slogan,
+a.label-anchor,
+.page h3.title,
+.navbar-brand,
+pre,
+code {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+/* Code-specific monospace font */
+pre,
+code {
+  font-family: 'SF Mono', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace !important;
+}
+
+/* ===== Color Scheme Optimization - GitHub Style ===== */
+
+/* Background color */
+body {
+  background-color: #ffffff !important;
+}
+
+/* Text color */
+body,
+.post,
+.page,
+p,
+li,
+td {
+  color: #24292e !important;
+}
+
+/* Heading color */
+h1, h2, h3, h4, h5, h6 {
+  color: #1a1a1a !important;
+}
+
+/* Link color - GitHub blue */
+a {
+  color: #0366d6 !important;
+  background: transparent !important;
+}
+
+a:hover {
+  color: #0366d6 !important;
+  background: transparent !important;
+  text-decoration: underline !important;
+}
+
+a:active,
+a:focus {
+  color: #0366d6 !important;
+  background: transparent !important;
+}
+
+/* Meta widget links */
+.meta-widget a {
+  color: #0366d6 !important;
+}
+
+/* ===== Horizontal Rule Optimization ===== */
+hr {
+  border: 0 !important;
+  height: 1px !important;
+  background-color: #e1e4e8 !important;
+  margin: 24px 0 !important;
+}
+
+/* ===== Code Block Optimization ===== */
+pre,
+.highlight,
+.gist,
+figure.highlight {
+  background: #f6f8fa !important;
+  border-radius: 3px !important;
+}
+
+code {
+  background: rgba(27,31,35,0.05) !important;
+  color: #24292e !important;
+  padding: 0.2em 0.4em !important;
+  border-radius: 3px !important;
+}
+
+pre code {
+  background: transparent !important;
+}
+
+/* Highlight.js table structure */
+.highlight table,
+figure.highlight table {
+  background: transparent !important;
+  border: none !important;
+}
+
+.highlight td,
+figure.highlight td {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* Line number styling */
+.highlight .gutter,
+figure.highlight .gutter {
+  color: rgba(27,31,35,0.3) !important;
+  background: transparent !important;
+  border-right: none !important;
+}
+
+.highlight .gutter pre,
+figure.highlight .gutter pre {
+  color: rgba(27,31,35,0.3) !important;
+  background: transparent !important;
+}
+
+.highlight .code,
+figure.highlight .code {
+  background: transparent !important;
+}
+
+.highlight .code pre,
+figure.highlight .code pre {
+  background: transparent !important;
+  color: #24292e !important;
+}
+
+/* ===== Blockquote Optimization ===== */
+blockquote {
+  background-color: transparent !important;
+  border-left: 0.25em solid #dfe2e5 !important;
+  color: #6a737d !important;
+}
+
+/* ===== Table Optimization ===== */
+table {
+  border-collapse: collapse !important;
+}
+
+table tr {
+  border-top: 1px solid #c6cbd1 !important;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f6f8fa !important;
+}
+
+th {
+  background: #ffffff !important;
+  color: #24292e !important;
+  border: 1px solid #dfe2e5 !important;
+}
+
+td {
+  color: #24292e !important;
+  border: 1px solid #dfe2e5 !important;
+}
+
+/* ===== Search Box Optimization ===== */
+#local-search-input {
+  background-color: #ffffff !important;
+  color: #24292e !important;
+  border: 1px solid #d0d7de !important;
+  border-radius: 6px !important;
+  padding: 8px 12px !important;
+}
+
+#local-search-input:focus {
+  border-color: #0366d6 !important;
+  outline: 2px solid rgba(3, 102, 214, 0.3) !important;
+  outline-offset: 0 !important;
+}
+
+#local-search-result {
+  background-color: #ffffff !important;
+  border: 1px solid #e1e4e8 !important;
+  border-radius: 6px !important;
+}
+
+p.search-result {
+  color: #24292e !important;
+}
+
+/* ===== Tag Box Optimization ===== */
+.tag_box a {
+  background: #f6f8fa !important;
+  color: #24292e !important;
+  border: 1px solid #d0d7de !important;
+  border-radius: 6px !important;
+}
+
+.tag_box a:hover {
+  background: #0366d6 !important;
+  color: #ffffff !important;
+  border-color: #0366d6 !important;
+}
+
+/* ===== Pagination Optimization ===== */
+.pagination a {
+  color: #0366d6 !important;
+  background: #ffffff !important;
+  border: 1px solid #d0d7de !important;
+  border-radius: 6px !important;
+  padding: 8px 16px !important;
+}
+
+.pagination a:hover {
+  background: #0366d6 !important;
+  color: #ffffff !important;
+  border-color: #0366d6 !important;
+  text-decoration: none !important;
+}
+
+/* ===== Strong Text Optimization ===== */
+strong {
+  color: #24292e !important;
+}
+
+/* ===== Slogan Optimization ===== */
+.slogan {
+  color: #586069 !important;
+}
+
+/* ===== Date Optimization ===== */
+.date {
+  color: #586069 !important;
+}
+
+.post .date {
+  color: #586069 !important;
+}
+
+/* ===== Footer Optimization ===== */
+footer {
+  background: #ffffff !important;
+  color: #586069 !important;
+  border-top: 1px solid #e1e4e8 !important;
+}
+
+footer p {
+  color: #586069 !important;
+}
+
+footer a {
+  color: #0366d6 !important;
+  background: transparent !important;
+}
+
+footer a:hover {
+  text-decoration: underline !important;
+  background: transparent !important;
+}
+
+/* ===== Sidebar Optimization ===== */
+#sidebar,
+.sidebar {
+  background: #ffffff !important;
+  color: #24292e !important;
+}
+
+#sidebar h4,
+.sidebar h4 {
+  color: #24292e !important;
+  border-bottom: 2px solid #0366d6 !important;
+}
+
+#sidebar a,
+.sidebar a {
+  color: #0366d6 !important;
+  background: transparent !important;
+}
+
+#sidebar a:hover,
+.sidebar a:hover {
+  text-decoration: underline !important;
+  background: transparent !important;
+}
+
+#sidebar li,
+.sidebar li {
+  color: #24292e !important;
+}
+
+/* ===== Category List Optimization ===== */
+.category-list a {
+  background: #f6f8fa !important;
+  color: #24292e !important;
+  border: 1px solid #d0d7de !important;
+  border-radius: 6px !important;
+}
+
+.category-list a:hover {
+  background: #0366d6 !important;
+  color: #ffffff !important;
+  border-color: #0366d6 !important;
+}
+
+/* ===== Widget Optimization ===== */
+.widget {
+  border-bottom: 1px solid #e1e4e8 !important;
+}
+
+/* ===== Alert Optimization ===== */
+.alert-success {
+  color: #22863a !important;
+  background: #dcffe4 !important;
+}
+
+/* ===== Spacing Optimization - Reduce Whitespace ===== */
+p {
+  margin-bottom: 16px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 24px !important;
+  margin-bottom: 16px !important;
+}
+
+h1 {
+  padding-bottom: 0.3em !important;
+  border-bottom: 1px solid #e1e4e8 !important;
+}
+
+h2 {
+  padding-bottom: 0.3em !important;
+  margin-top: 24px !important;
+  padding-top: 0 !important;
+  border-bottom: 1px solid #e1e4e8 !important;
+}
+
+ul, ol {
+  margin-bottom: 16px !important;
+}
+
+li {
+  margin-bottom: 0 !important;
+}
+
+/* ===== TOC Optimization ===== */
+.toc {
+  background: #f6f8fa !important;
+  border: 1px solid #d0d7de !important;
+  border-radius: 6px !important;
+}
+
+.toc .toc-title {
+  color: #24292e !important;
+}
+
+.toc-article a {
+  color: #0366d6 !important;
+}
+
+.toc-article a:hover {
+  text-decoration: underline !important;
+}
+
+/* ===== Listing Item Optimization ===== */
+.listing-item {
+  border-bottom: 1px solid #e1e4e8 !important;
+}
+
+.listing-item a {
+  color: #0366d6 !important;
+}
+
+.listing-item a:hover {
+  text-decoration: underline !important;
+  background: transparent !important;
+}
+
+/* ===== Selection Optimization ===== */
+::selection {
+  background: #0366d6 !important;
+  color: #ffffff !important;
+}
+
+::-moz-selection {
+  background: #0366d6 !important;
+  color: #ffffff !important;
+}
+
+/* ===== Remove Text Shadows ===== */
+* {
+  text-shadow: none !important;
+}
+
+/* ===== Navbar Brand Hover Optimization ===== */
+.navbar-brand:hover {
+  text-decoration: none !important;
+  text-shadow: none !important;
+}
+
+/* ===== Navbar Spacing Optimization ===== */
+.navbar {
+  min-height: 40px !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.navbar-nav {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.navbar-brand,
+.navbar-nav > li > a {
+  line-height: 20px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+body {
+  padding-top: 50px !important;
+}
+
+.content {
+  margin-top: 0 !important;
+}
+
+.page-header {
+  margin-top: 0 !important;
+}
+
+/* ===== Back to Top Button Optimization ===== */
+#gotop {
+  background-color: #0366d6 !important;
+  border-radius: 6px !important;
+}
+
+#gotop:hover {
+  background-color: #0256c7 !important;
+}
