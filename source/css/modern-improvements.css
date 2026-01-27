@@ -85,169 +85,31 @@ hr {
   padding: 0 !important;
 }
 
-/* ===== Code Block Optimization ===== */
-pre,
-.highlight,
-.gist,
-figure.highlight {
-  background: #f6f8fa !important;
-  border-radius: 6px !important;
-  padding: 16px !important;
-  overflow: auto !important;
-  line-height: 1.45 !important;
-  color: #24292e !important;
-}
 
-code {
-  background: rgba(27,31,35,0.05) !important;
-  color: #24292e !important;
-  padding: 0.2em 0.4em !important;
-  border-radius: 3px !important;
-  font-size: 85% !important;
-}
-
-pre code {
-  background: transparent !important;
-  padding: 0 !important;
-  font-size: 100% !important;
-}
-
-/* Highlight.js table structure */
-.highlight table,
-figure.highlight table {
-  background: transparent !important;
-  border: none !important;
-  margin: 0 !important;
-  width: 100% !important;
-}
-
-.highlight td,
-figure.highlight td {
-  background: transparent !important;
-  border: none !important;
-  padding: 0 !important;
-}
-
-/* Line number styling */
-.highlight .gutter,
-figure.highlight .gutter {
-  color: #57606a !important;
-  background: transparent !important;
-  border-right: none !important;
-  padding-right: 16px !important;
-  text-align: right !important;
-  user-select: none !important;
-}
-
-.highlight .gutter pre,
-figure.highlight .gutter pre {
-  color: #57606a !important;
-  background: transparent !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-.highlight .code,
-figure.highlight .code {
-  background: transparent !important;
-  padding-left: 0 !important;
-}
-
-.highlight .code pre,
-figure.highlight .code pre {
-  background: transparent !important;
-  color: #24292e !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* ===== GitHub Syntax Highlighting Colors ===== */
-/* Comments */
-.highlight .comment,
-.highlight .quote {
-  color: #6a737d !important;
-  font-style: italic !important;
-}
-
-/* Strings */
-.highlight .string,
-.highlight .value,
-.highlight .inheritance,
-.highlight .header,
-.highlight .ruby .symbol,
-.highlight .xml .cdata {
-  color: #032f62 !important;
-}
-
-/* Keywords */
-.highlight .keyword,
-.highlight .javascript .function,
-.highlight .tag,
-.highlight .name {
-  color: #d73a49 !important;
-}
-
-/* Functions */
-.highlight .function,
-.highlight .python .decorator,
-.highlight .python .title,
-.highlight .ruby .function .title,
-.highlight .ruby .title .keyword,
-.highlight .perl .sub,
-.highlight .javascript .title,
-.highlight .coffeescript .title {
-  color: #6f42c1 !important;
-}
-
-/* Numbers */
-.highlight .number,
-.highlight .preprocessor,
-.highlight .built_in,
-.highlight .literal,
-.highlight .params,
-.highlight .constant {
-  color: #005cc5 !important;
-}
-
-/* Class names */
-.highlight .class,
-.highlight .ruby .class .title,
-.highlight .css .rules .attribute,
-.highlight .title {
-  color: #22863a !important;
-}
-
-/* Variables and attributes */
-.highlight .variable,
-.highlight .attribute,
-.highlight .regexp,
-.highlight .ruby .constant,
-.highlight .xml .tag .title,
-.highlight .xml .pi,
-.highlight .xml .doctype,
-.highlight .html .doctype,
-.highlight .css .id,
-.highlight .css .class,
-.highlight .css .pseudo {
-  color: #e36209 !important;
-}
-
-/* Operators */
-.highlight .operator {
-  color: #d73a49 !important;
-}
-
-/* Special */
-.highlight .special,
-.highlight .css .hexcolor {
-  color: #005cc5 !important;
-}
 
 /* ===== Blockquote Optimization ===== */
 blockquote {
   background-color: transparent !important;
   border-left: 0.25em solid #dfe2e5 !important;
   color: #6a737d !important;
+}
+
+/* PrismJS code block tuning */
+pre[class*="language-"] {
+  padding: 0.6em 0.9em !important;
+  margin: 0.6em 0 !important;
+  line-height: 1.5 !important;
+  text-align: left !important;
+}
+
+pre[class*="language-"].line-numbers {
+  padding-left: 3.8em !important;
+}
+
+pre[class*="language-"] > code {
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: inherit !important;
 }
 
 /* ===== Table Optimization ===== */
