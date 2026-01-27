@@ -480,6 +480,82 @@ pre,
 code {
   font-family: DOS-en, DOS, Monaco, Menlo, Consolas, "Courier New", monospace !important;
 }
+
+/* PrismJS code block tuning (retro theme) */
+pre[class*="language-"] {
+  padding: 0.6em 0.9em !important;
+  margin: 0.6em 0 !important;
+  line-height: 1.5 !important;
+  text-align: left !important;
+  text-shadow: none !important;
+}
+
+pre[class*="language-"].line-numbers {
+  padding-left: 3.8em !important;
+}
+
+pre[class*="language-"] > code {
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: inherit !important;
+  text-shadow: none !important;
+}
+
+/* PrismJS retro cleanup: remove punctuation boxes */
+.token.punctuation {
+  background: transparent !important;
+}
+
+/* PrismJS retro theme readability */
+pre[class*="language-"],
+code[class*="language-"] {
+  background: #000 !important;
+  color: #f8f8f2 !important;
+  text-shadow: none !important;
+}
+
+.token { color: #f8f8f2 !important; }
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata { color: #8a8a8a !important; }
+.token.punctuation {
+  color: #f8f8f2 !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted { color: #8be9fd !important; }
+.token.boolean,
+.token.number { color: #bd93f9 !important; }
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted { color: #f1fa8c !important; }
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+  color: #f8f8f2 !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name { color: #50fa7b !important; }
+.token.keyword { color: #ff79c6 !important; }
+.token.regex,
+.token.important { color: #ffb86c !important; }
 .fancybox-close:hover {
   background: url("../fancybox/fancybox_sprite.png");
 }
