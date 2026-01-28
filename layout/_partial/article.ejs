@@ -17,7 +17,11 @@
 		 </div> <!-- alert -->
 	  <% } %>		
 
-	  <%- item.content %>	  
+	  <%- item.content %>
+	  <% if (post) { %>
+	  <hr>
+	  <p>Content licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>.</p>
+	  <% } %>
 	</div>
 
 	<div>
